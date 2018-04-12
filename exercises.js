@@ -65,8 +65,12 @@ while (i < tvShows.length) {
 
 */
 
-
-
+var i = 0;
+while (i<9) {
+	i++;
+	console.log(i + ' x 3 = ' + i*3)
+}
+// Wait, wouldn't it start at i=1?? and how does it work when i is less than 9
 
 
 /*5. Multiples of 3 and 5. Create a while loop that will loop through 100 numbers. Your job is to program the following:
