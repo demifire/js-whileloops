@@ -100,6 +100,21 @@ devleague homie!
 ...
 ...*/
 
+var i=0;
+while (i<100) {
+	i++;
+	// Apparently the if statement with && in it needed to be first
+		if(i%3 === 0 && i%5 === 0){
+			console.log('devleague homie!');
+		}
+		else if(i%5 === 0){
+			console.log('league');
+		}
+		else if(i%3 === 0){
+			console.log('dev');
+		}
+		else {console.log(i)}
+}
 
 /*
  * #6
